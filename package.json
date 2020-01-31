@@ -1,0 +1,19 @@
+{
+  "name": "pluralsight-bot",
+  "version": "1.0.0",
+  "description": "a simple bot from pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickynyairo/pluralsight-bot.git"
+  },
+  "author": "Ricky Nyairo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickynyairo/pluralsight-bot/issues"
+  },
+  "homepage": "https://github.com/rickynyairo/pluralsight-bot#readme"
+}
