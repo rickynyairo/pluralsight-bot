@@ -4,7 +4,10 @@
   "description": "a simple bot from pluralsight",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node ./index.js",
+    "watch": "nodemon ./index.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,27 @@
   "bugs": {
     "url": "https://github.com/rickynyairo/pluralsight-bot/issues"
   },
-  "homepage": "https://github.com/rickynyairo/pluralsight-bot#readme"
+  "homepage": "https://github.com/rickynyairo/pluralsight-bot#readme",
+  "dependencies": {
+    "botbuilder": "~4.7.0",
+    "botbuilder-ai": "~4.7.0",
+    "botbuilder-dialogs": "~4.7.0",
+    "dotenv": "^8.2.0",
+    "restify": "^8.4.0",
+    "botframework-config": "^4.7.1",
+    "mongodb": "3.5.2",
+    "ms-rest-azure": "3.0.0",
+    "azure-cognitiveservices-language": "1.0.0-preview",
+    "azure-keyvault": "3.0.5",
+    "axios": "0.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "~1.19.4"
+  }
 }
