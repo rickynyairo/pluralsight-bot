@@ -30,7 +30,7 @@
     "ms-rest-azure": "3.0.0",
     "azure-cognitiveservices-language": "1.0.0-preview",
     "azure-keyvault": "3.0.5",
-    "axios": "0.19.2"
+    "axios": "0.21.1"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
